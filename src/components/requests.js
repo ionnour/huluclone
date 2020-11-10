@@ -1,6 +1,6 @@
 const API_KEY = "315245dda1394fff5d6c66a76fbae0c7"
 
-export default [
+const requests =  [
   {
     category: `/trending/all/day?api_key=${API_KEY}&language=en-EN`,
     title: "Trending"
@@ -50,3 +50,5 @@ export default [
     title: "Thriller"
   }
 ]
+
+export default requests;
